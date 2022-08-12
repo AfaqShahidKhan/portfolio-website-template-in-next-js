@@ -17,9 +17,8 @@ const Hero = () => (
         Welcome to my Portfolio
       </SectionTitle>
       <SectionText>
-        The purpose of React Mastery is to help aspiring and established
-        deverlopers to take their development skills to the next level and build
-        awesome apps.
+        I'm passionate about accessibility, performance, and elegant design and
+        things that usually make life easier for the users.
       </SectionText>
       <Button
         onClick={() =>
