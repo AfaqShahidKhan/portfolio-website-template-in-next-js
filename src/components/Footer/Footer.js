@@ -29,7 +29,7 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email:</LinkTitle>
-          <LinkItem href="mushahidjutt352@gmail.com">afaqk3203@gmail.com</LinkItem>
+          <LinkItem href="mushahidjutt352@gmail.com">mushahidjutt352@gmail.com</LinkItem>
         </LinkColumn>
         <SocialIconsContainer>
           <CompanyContainer>
