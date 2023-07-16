@@ -42,12 +42,13 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2018, text: "Started my journey" },
-  { year: 2019, text: "Learn the  OOP concepts " },
+  { year: 2019, text: "Started my journey in PF and OOP in C++ " },
+  
   {
     year: 2020,
     text: "Worked in UI designing in JAVA for desktop applications",
   },
   { year: 2021, text: "Learn Flutter for Android and IOS" },
-  { year: 2022, text: "Learn Vue and React. Crruntlly working on NEXT" },
+  { year: 2022, text: "Learn Vue and React.  worked on NEXT.js 13" },
+  { year: 2023, text: "Currently working on Rails 7 and SQL " },
 ];
