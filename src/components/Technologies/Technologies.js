@@ -41,7 +41,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>{" "}
           <ListParagraph>
             Experience with <br />
-            Node and databases
+            Rails 7 and SQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
