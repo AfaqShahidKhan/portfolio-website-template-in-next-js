@@ -14,11 +14,12 @@ const Hero = () => (
       <SectionTitle main center>
         Hi! I'm Afaq Shahid Khan
         <br />
-        Welcome to my Portfolio
+    
       </SectionTitle>
       <SectionText>
-        I'm passionate about accessibility, performance, and elegant design and
-        things that usually make life easier for the users.
+      Having Experties in Ruby on Rails, JavaScript, React.js, PostgreSql, MySql, Next.js, Vue.js, Flutter, Vercel, WebSocket,
+      JSON, NPM, Postman, ActionCable,Turbo-Stream, Solidus, jQuery, AJAX, RESTful APIs, Bybug, GIT,
+      HTML, CSS,Wordpress, Bootstrap, Material UI, Tailwind CSS, Semantic UI.
       </SectionText>
       <Button
         onClick={() =>

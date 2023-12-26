@@ -1,12 +1,12 @@
 export const projects = [
   {
-    title: "Hospital Management System",
+    title: "Bookarley",
     description:
-      "This is a code repository for the corresponding Project of Hospital Management System. Which is buid in JAVA for both(UI & Backend",
+      "A  beacon of innovation in the world of wedding planning. We're not just a venue booking site.",
     image: "/images/1.png",
-    tags: ["Java", "UI", "Database", "Mysql"],
+    tags: ["Rails", "UI", "Database", "Postgresql","Solidus"],
     source: "https://github.com/AfaqShahidKhan?tab=repositories",
-    visit: "https://github.com/AfaqShahidKhan?tab=repositories",
+    visit: "https://bookarley.com/",
     id: 0,
   },
   {
@@ -50,5 +50,5 @@ export const TimeLineData = [
   },
   { year: 2021, text: "Learn Flutter for Android and IOS" },
   { year: 2022, text: "Learn Vue and React.  worked on NEXT.js 13" },
-  { year: 2023, text: "Currently working on Rails 7 and SQL " },
+  { year: 2023, text: "Currently working on Rails 7 and PostgreSQL " },
 ];
