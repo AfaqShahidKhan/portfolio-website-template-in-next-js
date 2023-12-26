@@ -30,7 +30,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>{" "}
           <ListParagraph>
             Experience with <br />
-            Next.js/Vue.js
+            Next.js/Vue.js/Flutter
           </ListParagraph>
         </ListContainer>
       </ListItem>
