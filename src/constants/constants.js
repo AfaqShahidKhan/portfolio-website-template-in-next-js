@@ -15,8 +15,8 @@ export const projects = [
       "This is the online news app. I use Next.js for making this website. I have also use API integereation in it. ",
     image: "/images/2.png",
     tags: ["React", "JavaScript", "Next"],
-    source: "https://github.com/AfaqShahidKhan?tab=repositories",
-    visit: "https://github.com/AfaqShahidKhan?tab=repositories",
+    source: "https://github.com/AfaqShahidKhan/live_nextt_news_app",
+    visit: "https://live-nextt-news-8qdm9mq50-v3english123-gmailcom.vercel.app/feed/1",
     id: 1,
   },
   {
