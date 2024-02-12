@@ -34,7 +34,7 @@ export const projects = [
     description:
       "An application for the tourists help. I have designed it for a startup in Flutter.Connecting local communities with travelers, we provide both tried-and-true and out-of-the-ordinary methods for spending your weekends and vacations. ",
     image: "/images/4.png",
-    tags: ["Flutter", "API"],
+    tags: ["Flutter", "GetX"],
     source: "https://github.com/AfaqShahidKhan?tab=repositories",
     visit: "https://github.com/AfaqShahidKhan?tab=repositories",
     id: 3,
