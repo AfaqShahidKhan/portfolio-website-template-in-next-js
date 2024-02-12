@@ -5,8 +5,8 @@ export const projects = [
       "A  beacon of innovation in the world of wedding planning. We're not just a venue booking site.",
     image: "/images/1.png",
     tags: ["Rails", "UI", "Database", "Postgresql","Solidus"],
-    source: "https://github.com/AfaqShahidKhan?tab=repositories",
-    visit: "https://bookarley.com/",
+    source: "https://bookarley.com/",
+    visit: "https://github.com/AfaqShahidKhan?tab=repositories",
     id: 0,
   },
   {
