@@ -26,6 +26,7 @@ const Hero = () => (
           (window.location =
             "https://www.linkedin.com/in/afaq-shahid-khan-102868179", "_blank")
         }
+           target="_blank"
       >
         Learn more
       </Button>
