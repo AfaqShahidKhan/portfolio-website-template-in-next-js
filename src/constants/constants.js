@@ -20,21 +20,21 @@ export const projects = [
     id: 1,
   },
   {
-    title: "Weather App",
+    title: "Munshi On Click",
     description:
-      "This is a simple weather app which tells us about the condition of weather of any city we want, It is made in flutter along with weather API. ",
+      "Munshionclick ERP goes beyond traditional ERP systems, providing a user-friendly interface and robust features that empower your organization to thrive in the ever-evolving business landscape.",
     image: "/images/3.png",
-    tags: ["Flutter", "Dart"],
+    tags: ["Rails", "Postgresql"],
     source: "https://github.com/AfaqShahidKhan?tab=repositories",
-    visit: "https://github.com/AfaqShahidKhan?tab=repositories",
+    visit: "https://munshionclick.com/",
     id: 2,
   },
   {
     title: "Your Guide",
     description:
-      "An application for the tourists help. I am designing it for a startup in Flutter",
+      "An application for the tourists help. I have designed it for a startup in Flutter.Connecting local communities with travelers, we provide both tried-and-true and out-of-the-ordinary methods for spending your weekends and vacations. ",
     image: "/images/4.png",
-    tags: ["Flutter", "API", "Firebase"],
+    tags: ["Flutter", "API"],
     source: "https://github.com/AfaqShahidKhan?tab=repositories",
     visit: "https://github.com/AfaqShahidKhan?tab=repositories",
     id: 3,
@@ -46,9 +46,9 @@ export const TimeLineData = [
   
   {
     year: 2020,
-    text: "Worked in UI designing in JAVA for desktop applications",
+    text: "Worked on JAVA for desktop apps, Wordpress and Shopify",
   },
-  { year: 2021, text: "Learn Flutter for Android and IOS" },
-  { year: 2022, text: "Learn Vue and React.  worked on NEXT.js 13" },
+  { year: 2021, text: "Worked on Flutter for Android and IOS" },
+  { year: 2022, text: "worked on Vue, React and NEXT.js 13" },
   { year: 2023, text: "Currently working on Rails 7 and PostgreSQL " },
 ];
