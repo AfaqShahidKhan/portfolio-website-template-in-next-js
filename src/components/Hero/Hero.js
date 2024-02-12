@@ -22,14 +22,13 @@ const Hero = () => (
       HTML, CSS,Wordpress, Bootstrap, Material UI, Tailwind CSS, Semantic UI.
       </SectionText>
       <Button
-        onClick={() =>
-          (window.location =
-            "https://www.linkedin.com/in/afaq-shahid-khan-102868179", "_blank")
-        }
-           target="_blank"
-      >
-        Learn more
-      </Button>
+  onClick={() =>
+    (window.location = "https://www.linkedin.com/in/afaq-shahid-khan-102868179")
+  }
+  target="_blank" 
+>
+  Learn more
+</Button>
     </LeftSection>
   </Section>
 );
