@@ -24,7 +24,7 @@ const Hero = () => (
       <Button
         onClick={() =>
           (window.location =
-            "https://www.linkedin.com/in/afaq-shahid-khan-102868179")
+            "https://www.linkedin.com/in/afaq-shahid-khan-102868179", "_blank")
         }
       >
         Learn more
