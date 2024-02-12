@@ -15,4 +15,8 @@ export const ScrollToTopButtonStyled = styled.button`
   justify-content: center;
   font-size: 20px;
   z-index: 999;
+  transition: background-color 0.3s; 
+  &:hover {
+    background-color: black;
+  }
 `;
