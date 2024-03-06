@@ -34,14 +34,14 @@ export const ServiceCard = styled.div`
 `;
 
 export const ServiceTitle = styled.h2`
-  font-size: 3.8rem;
+  font-size: 3.0rem;
   color: #eee;
   margin-bottom: 1rem;
   font-weight: bold;
 `;
 
 export const ServiceDescription = styled.p`
-  font-size: 2.8rem;
+  font-size: 2.0rem;
   color: #ccc;
   line-height: 1.5;
 `;
