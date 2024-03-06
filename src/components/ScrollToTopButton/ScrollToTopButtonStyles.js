@@ -7,7 +7,9 @@ export const ScrollToTopButtonStyled = styled.button`
   background-color: #87CEEB;
   color: #fff;
   border: none;
-  border-radius: 30px;
+  border-radius: 50%; 
+  width: 40px; 
+  height: 40px; 
   padding: 10px;
   cursor: pointer;
   display: flex;
