@@ -21,13 +21,14 @@ const Hero = () => (
       JSON, NPM, Postman, ActionCable,Turbo-Stream,Ransack, Solidus, jQuery, AJAX, RESTful APIs, Bybug, GIT,
       HTML, CSS,Wordpress, Bootstrap, Material UI, Tailwind CSS, Semantic UI.
       </SectionText>
-     <Button
+      <Button
         onClick={() => {
           window.open("https://www.linkedin.com/in/afaq-shahid-khan", "_blank");
         }}
       >
         Learn more
       </Button>
+
     </LeftSection>
   </Section>
 );
