@@ -2,16 +2,25 @@
 import React from "react";
 import styled from "styled-components";
 
+const ImageContainer = styled.div`
+  width: 100%;
+  max-height: 200px; /* Adjust the max-height as needed */
+  overflow: hidden;
+`;
+
 const Image = styled.img`
   width: 100%;
-  max-height: 350px; /* Adjust the max-height as needed */
+  height: 100%;
   object-fit: cover;
   border-radius: 10px;
-  margin-bottom: 1rem;
 `;
 
 const ServiceImage = ({ imageName, alt }) => {
-  return <Image src={`/images/${imageName}`} alt={alt} />;
+  return (
+    <ImageContainer>
+      <Image src={`/images/${imageName}`} alt={alt} />
+    </ImageContainer>
+  );
 };
 
 export default ServiceImage;
