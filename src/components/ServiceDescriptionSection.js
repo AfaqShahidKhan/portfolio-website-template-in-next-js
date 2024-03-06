@@ -7,13 +7,13 @@ export const ServiceDescriptionSection = styled.div`
 `;
 
 export const DescriptionTitle = styled.h2`
-  font-size: 5.8rem;
+  font-size: 3.8rem;
   color: #eee; /* Greyish white color */
   margin-bottom: 1rem;
 `;
 
 export const DescriptionContent = styled.p`
-  font-size: 4rem;
+  font-size: 2rem;
   color: #ccc; /* Light grey color */
   
   margin: 0 auto;
