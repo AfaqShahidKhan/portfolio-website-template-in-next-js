@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Image = styled.img`
   width: 100%;
-  max-height: 400px; /* Adjust the max-height as needed */
+  max-height: 350px; /* Adjust the max-height as needed */
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 1rem;
