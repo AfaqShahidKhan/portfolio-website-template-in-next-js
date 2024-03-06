@@ -4,12 +4,10 @@ export const ScrollToTopButtonStyled = styled.button`
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 60px;
-  height: 60px;
   background-color: #87CEEB;
   color: #fff;
   border: none;
-  border-radius: 50%; /* Set to half of the width */
+  border-radius: 30px;
   padding: 10px;
   cursor: pointer;
   display: flex;
