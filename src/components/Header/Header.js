@@ -21,7 +21,7 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
+      <Link href="/#header">
         <a
           style={{
             display: "flex",
@@ -36,6 +36,11 @@ const Header = () => (
       </Link>
     </Div1>
     <Div2>
+    <li>
+        <Link href="/#header">
+          <NavLink>Home</NavLink>
+        </Link>
+      </li>
       <li>
         <Link href="/#projects">
           <NavLink>Projects</NavLink>
