@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const ImageContainer = styled.div`
   width: 100%;
-  max-height: 350px; /* Adjust the max-height as needed */
+  max-height: 250px; /* Adjust the max-height as needed */
   overflow: hidden;
 `;
 

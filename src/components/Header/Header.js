@@ -20,7 +20,7 @@ import {
 
 const Header = () => (
   <Container>
-    <Div1>
+    <Div1 >
       <Link href="/#header">
         <a
           style={{
@@ -63,7 +63,7 @@ const Header = () => (
         </Link>
       </li>
     </Div2>
-    <Div3>
+    <Div3 >
       <SocialIcons href="https://github.com/AfaqShahidKhan" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
