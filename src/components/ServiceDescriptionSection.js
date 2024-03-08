@@ -7,7 +7,7 @@ export const ServiceDescriptionSection = styled.div`
 `;
 
 export const DescriptionTitle = styled.h2`
-  font-size: 3.8rem;
+  font-size: 2.6rem;
   color: #eee; /* Greyish white color */
   margin-bottom: 1rem;
 `;
