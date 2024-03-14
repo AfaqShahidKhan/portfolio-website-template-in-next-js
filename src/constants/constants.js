@@ -4,7 +4,7 @@ export const projects = [
     description:
       "A  beacon of innovation in the world of wedding planning that embrace the future of wedding planning",
     image: "/images/1.png",
-    tags: ["Rails", "UI", "Database", "Postgresql","Solidus"],
+    tags: ["Rails", "Postgresql","Solidus"],
     source: "https://github.com/AfaqShahidKhan?tab=repositories",
     visit: "https://bookarley.com/",
     id: 0,
