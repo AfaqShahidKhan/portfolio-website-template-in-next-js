@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Bookarley",
     description:
-      "A  beacon of innovation in the world of wedding planning. We're not just a venue booking site.",
+      "A  beacon of innovation in the world of wedding planning that embrace the future of wedding planning",
     image: "/images/1.png",
     tags: ["Rails", "UI", "Database", "Postgresql","Solidus"],
     source: "https://github.com/AfaqShahidKhan?tab=repositories",
