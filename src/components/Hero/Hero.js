@@ -18,7 +18,7 @@ const Hero = () => (
       </SectionTitle>
       <SectionText>
       Having Experties in Ruby on Rails, JavaScript, React.js, PostgreSql, MySql, Next.js, Vue.js, Flutter, Vercel, WebSocket,
-      JSON, NPM, Postman, ActionCable,Turbo-Stream,Ransack, Solidus, jQuery, AJAX, RESTful APIs, Bybug, GIT,
+      JSON, NPM, Postman, ActionCable,Turbo-Stream,Ransack, Solidus, jQuery, AJAX, RESTful APIs, Debugging, GIT,
       HTML, CSS,Wordpress, Bootstrap, Material UI, Tailwind CSS, Semantic UI.
       </SectionText>
       <Button
