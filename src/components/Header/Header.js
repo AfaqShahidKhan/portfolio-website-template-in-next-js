@@ -4,8 +4,9 @@ import {
   AiFillGithub,
   AiFillInstagram,
   AiFillLinkedin,
-  AiFillTwitterCircle,
+  AiFillCloseCircle,
 } from "react-icons/ai";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { DiCssdeck } from "react-icons/di";
 import { useMediaQuery } from 'react-responsive';
 import {
@@ -79,7 +80,7 @@ const Header = () => {
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
         <SocialIcons href="https://twitter.com/afaqshahidkhan" target="_blank">
-          <AiFillTwitterCircle size="3rem" />
+          <FaSquareXTwitter size="3rem" />
         </SocialIcons>
       </Div3>
     </Container>
