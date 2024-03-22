@@ -3,6 +3,7 @@ import React from "react";
 import { Container, ServiceCard, ServiceDescription, ServiceGrid, ServiceTitle, Title } from "../components/ServicesStyle";
 import ServiceImage from "../components/ServiceImage";
 import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 import { DescriptionContent, DescriptionTitle, ServiceDescriptionSection } from "../components/ServiceDescriptionSection";
 import ScrollToTopButton from "../components/ScrollToTopButton/ScrollToTopButton";
 const Services = () => {
@@ -57,7 +58,7 @@ const Services = () => {
           we have the expertise to drive your success in the digital world.
         </DescriptionContent>
       </ServiceDescriptionSection>
-
+      <Footer/>
     </Container>
   );
 };
