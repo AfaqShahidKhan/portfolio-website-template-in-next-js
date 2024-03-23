@@ -19,6 +19,11 @@ export const ServiceGrid = styled.div`
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-top: 2rem;
+  @media (max-width: 768px) {
+    /* Change grid layout to display one item per row on mobile screens */
+    grid-template-columns: 1fr;
+  }
+
 `;
 
 export const ServiceCard = styled.div`

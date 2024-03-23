@@ -6,10 +6,11 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import { DescriptionContent, DescriptionTitle, ServiceDescriptionSection } from "../components/ServiceDescriptionSection";
 import ScrollToTopButton from "../components/ScrollToTopButton/ScrollToTopButton";
+import { Layout } from "../layout/Layout";
 const Services = () => {
   return (
-    <Container>
-        <Header/>
+    <Layout>
+
       <Title>Our Services</Title>
       <ScrollToTopButton />
       <ServiceGrid>
@@ -58,8 +59,8 @@ const Services = () => {
           we have the expertise to drive your success in the digital world.
         </DescriptionContent>
       </ServiceDescriptionSection>
-      <Footer/>
-    </Container>
+      </Layout>
+
   );
 };
 
