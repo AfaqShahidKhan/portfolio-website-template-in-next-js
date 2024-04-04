@@ -47,18 +47,19 @@ const Header = () => {
             </Link>
           </li>
       
-        {!isMobile && (
+       
         <li>
-          <Link href="/#projects">
+          <Link href="/projects">
             <NavLink>Projects</NavLink>
           </Link>
         </li>
-  )}
+        {!isMobile && (
         <li>
           <Link href="/#tech">
             <NavLink>Technologies</NavLink>
           </Link>
         </li>
+         )} 
         {!isMobile && (
         <li>
           <Link href="/#about">
