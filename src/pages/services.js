@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <Layout>
 
-      <Title>Our Services</Title>
+      <Title>Services</Title>
       <ScrollToTopButton />
       <ServiceGrid>
         <ServiceCard>

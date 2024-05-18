@@ -49,7 +49,7 @@ const Header = () => {
       
        
         <li>
-          <Link href="/projects">
+          <Link href="/#projects">
             <NavLink>Projects</NavLink>
           </Link>
         </li>
@@ -60,18 +60,18 @@ const Header = () => {
           </Link>
         </li>
          )} 
-        {!isMobile && (
+        {/* {!isMobile && ( */}
         <li>
           <Link href="/#about">
             <NavLink>About</NavLink>
           </Link>
         </li>
-        )}
-        <li>
+       { /*)}*/}
+        {/* <li>
           <Link href="/services">
             <NavLink>Services</NavLink>
           </Link>
-        </li>
+        </li> */}
       </Div2>
       <Div3>
         <SocialIcons href="https://github.com/AfaqShahidKhan" target="_blank">
