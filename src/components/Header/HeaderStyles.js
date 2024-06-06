@@ -9,7 +9,7 @@ export const Container = styled.div`
   padding: 1rem;
   padding-top: 2rem;
   background-color: #0F1624;
-  position: sticky;
+  // position: sticky; make the header not sticky anymmore
   top: 0;
   z-index: 100;
 
