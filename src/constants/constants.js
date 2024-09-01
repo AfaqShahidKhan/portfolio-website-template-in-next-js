@@ -46,6 +46,6 @@ export const TimeLineData = [
     year: 2020, text: "Started my journey in JAVA for desktop apps",
   },
   { year: 2021, text: "Worked on Flutter for Android and IOS" },
-  { year: 2022, text: "worked on React and NEXT.js 13" },
-  { year: 2023, text: "Since 2023, I've been working with Ruby on Rails and PostgreSQL" },
+  { year: 2022, text: "worked with Ruby on Rails and PostgreSQL" },
+  { year: 2023, text: "Since 2023, I've been working on React and NEXT.js " },
 ];
