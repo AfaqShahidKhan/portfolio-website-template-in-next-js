@@ -30,7 +30,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>{" "}
           <ListParagraph>
             Experience with <br />
-            Next.js/Flutter
+            Next.js/React.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,7 +41,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>{" "}
           <ListParagraph>
             Experience with <br />
-            Rails 7,PostgreSQL and SQL
+            Node.js,MongoDB and SQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
