@@ -17,9 +17,9 @@ const Hero = () => (
     
       </SectionTitle>
       <SectionText>
-      Having Experties in JavaScript, React.js, Next.js, WebSocket,
+      Having Experties in JavaScript, React.js, Next.js, TypeScript, WebSocket,
       JSON, NPM, Postman, jQuery, AJAX, RESTful APIs, Debugging, GIT,
-      HTML, CSS,Wordpress, Bootstrap, Material UI, Tailwind CSS, Semantic UI.
+      HTML, CSS,Wordpress, Bootstrap, Material UI, Tailwind CSS and Semantic UI.
       </SectionText>
       <Button
         onClick={() => {
