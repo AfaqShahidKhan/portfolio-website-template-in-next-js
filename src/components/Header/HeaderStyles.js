@@ -8,7 +8,7 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
-  background-color: #0F1624;
+  background-color: #0f1624;
   // position: sticky; make the header not sticky anymmore
   top: 0;
   z-index: 100;
@@ -53,7 +53,7 @@ export const Div3 = styled.div`
 `;
 
 // Navigation Links
-export const NavLink = styled.a`
+export const NavLink = styled.span`
   font-size: 2rem;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
