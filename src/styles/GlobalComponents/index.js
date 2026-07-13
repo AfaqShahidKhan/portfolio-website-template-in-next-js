@@ -30,7 +30,7 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => (props.$main ? "72px" : "56px")};
   width: max-content;
   max-width: 100%;
-  color: ${(props) => props.theme.colors.text};
+  color: inherit;
   margin-bottom: 16px;
   padding: ${(props) => (props.$main ? "58px 0 16px" : "0")};
   text-align: ${(props) => (props.$center ? "center" : "left")};
@@ -61,7 +61,7 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: ${(props) => props.theme.colors.text};
+  color: inherit;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -100,7 +100,8 @@ export const SectionSubText = styled.p`
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  color: ${(props) => props.theme.colors.textLight};
+  color: inherit;
+  opacity: 0.8;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;
@@ -114,9 +115,9 @@ export const SectionSubText = styled.p`
   }
 `;
 export const SecondaryBtn = styled.button`
-  color: ${(props) => props.theme.colors.text};
+  color: inherit;
   background: none;
-  border: 1px solid ${(props) => props.theme.colors.text};
+  border: 1px solid currentColor;
   box-sizing: border-box;
   border-radius: 999px;
   padding: 16px 24px;

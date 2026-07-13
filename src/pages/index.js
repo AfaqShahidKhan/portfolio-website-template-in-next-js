@@ -9,28 +9,30 @@ import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
 import styled from "styled-components";
 
-const PageWrapper = styled.div`
-  > section {
-    &:nth-of-type(2n + 2) {
-      background-color: ${(props) => props.theme.colors.offWhite};
-    }
-  }
+// Full-bleed light band: white background + dark text for
+// sections that alternate with the dark page background.
+const LightBand = styled.div`
+  background-color: ${(props) => props.theme.colors.white};
+  color: ${(props) => props.theme.colors.text};
+  padding: 4rem 0 8rem;
 `;
 
 const Home = () => {
   return (
     <Layout>
       <ScrollToTopButton />
-      <PageWrapper>
-        <Section $grid>
-          <Hero />
-          <BgAnimation />
-        </Section>
+      <Section $grid>
+        <Hero />
+        <BgAnimation />
+      </Section>
+      <LightBand>
         <Projects />
-        <Timeline />
+      </LightBand>
+      <Timeline />
+      <LightBand>
         <Technologies />
-        <Acomplishments />
-      </PageWrapper>
+      </LightBand>
+      <Acomplishments />
     </Layout>
   );
 };

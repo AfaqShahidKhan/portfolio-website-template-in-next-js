@@ -160,12 +160,12 @@ export const UtilityList = styled.ul`
 
 export const ExternalLinks = styled.a`
   display: inline-block;
-  border: 1px solid ${(props) => props.theme.colors.accent1};
+  border: 1px solid ${(props) => props.theme.colors.text};
   font-size: 1.9rem;
   padding: 0.3rem 2rem;
   border-radius: 10rem;
   color: ${(props) => props.theme.colors.white};
-  background: ${(props) => props.theme.colors.accent1};
+  background: ${(props) => props.theme.colors.text};
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   transition: all 0.2s;
   font-family: 'Space Grotesk', sans-serif;
@@ -173,8 +173,9 @@ export const ExternalLinks = styled.a`
 
   &:hover,
   &:focus {
-    background: ${(props) => props.theme.colors.text};
-    border-color: ${(props) => props.theme.colors.text};
+    background: ${(props) => props.theme.colors.accent1};
+    border-color: ${(props) => props.theme.colors.accent1};
+    color: ${(props) => props.theme.colors.text};
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     outline: none;
     text-decoration: none;

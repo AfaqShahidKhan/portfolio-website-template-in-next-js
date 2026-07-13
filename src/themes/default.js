@@ -13,6 +13,9 @@ export default {
     background2: "hsl(232.7,27.3%,23.7%)",
     white: "#ffffff",
     offWhite: "#f4f4f4",
+    // Text colors for light (white) sections
+    text: "#333333",
+    textLight: "#666666",
   },
   // Breakpoints for responsive design
   breakpoints: {

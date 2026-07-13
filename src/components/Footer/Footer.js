@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-  AiFillLinkedin,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { SocialIcons } from "../Header/HeaderStyles";
@@ -29,20 +25,25 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email:</LinkTitle>
-          <LinkItem href="afaqshahidk@gmail.com">afaqshahidk@gmail.com</LinkItem>
+          <LinkItem href="afaqshahidk@gmail.com">
+            afaqshahidk@gmail.com
+          </LinkItem>
         </LinkColumn>
         <SocialIconsContainer>
           <CompanyContainer>
             <Slogan>Inovating one project at a time</Slogan>
           </CompanyContainer>
           <SocialContainer>
-            <SocialIcons href="https://github.com/AfaqShahidKhan" target="_blank">
+            <SocialIcons href="https://github.com/Mohsin" target="_blank">
               <AiFillGithub size="3rem" />
             </SocialIcons>
-            <SocialIcons href="https://www.linkedin.com/in/afaq-shahid-khan" target="_blank">
+            <SocialIcons
+              href="https://www.linkedin.com/in/afaq-shahid-khan"
+              target="_blank"
+            >
               <AiFillLinkedin size="3rem" />
             </SocialIcons>
-            <SocialIcons href="https://twitter.com/afaqshahidkhan" target="_blank">
+            <SocialIcons href="https://twitter.com/mohsin" target="_blank">
               <FaSquareXTwitter size="3rem" />
             </SocialIcons>
           </SocialContainer>

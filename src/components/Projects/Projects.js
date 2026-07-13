@@ -92,8 +92,8 @@ const Project = ({ title, description, tags, image, visit }) => {
 
 const Projects = () => (
   <Section $nopadding id="projects">
-    <SectionDivider />
     <SectionTitle $main>My Work</SectionTitle>
+    <SectionDivider />
     <GridContainer>
       {projects.map((p, i) => (
         <Project key={i} {...p} />
