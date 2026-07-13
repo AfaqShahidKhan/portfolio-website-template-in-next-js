@@ -2,21 +2,21 @@ export const projects = [
   {
     title: "Bookarley",
     description:
-      "A  beacon of innovation in the world of wedding planning. We're not just a venue booking site.",
+      "A  beacon of innovation in the world of wedding planning that embrace the future of wedding planning",
     image: "/images/1.png",
-    tags: ["Rails", "UI", "Database", "Postgresql","Solidus"],
+    tags: ["Rails", "Postgresql", "Solidus"],
     source: "https://github.com/AfaqShahidKhan?tab=repositories",
     visit: "https://bookarley.com/",
     id: 0,
   },
   {
-    title: "News-Web-in-Next.js",
+    title: "Merchandise",
     description:
-      "This is the online news app. I use Next.js for making this website. I have also use API integereation in it. ",
+      "Essentials marketplace featuring products for Events, Gifts, Hospitality, Printpacks, Retail, Workplace, and more, with ready-made templates and sustainability statistics.",
     image: "/images/2.png",
-    tags: ["React", "JavaScript", "Next"],
-    source: "https://github.com/AfaqShahidKhan/live_nextt_news_app",
-    visit: "https://live-nextt-news-8qdm9mq50-v3english123-gmailcom.vercel.app/feed/1",
+    tags: ["React", "Next.js", "E-commerce"],
+    source: "https://github.com/AfaqShahidKhan?tab=repositories",
+    visit: "https://www.merchandaise.com/en-us",
     id: 1,
   },
   {
@@ -30,25 +30,23 @@ export const projects = [
     id: 2,
   },
   {
-    title: "Your Guide",
+    title: "Strikeo",
     description:
-      "An application for the tourists help. I have designed it in Flutter for Connecting local communities with travelers, we provide both tried-and-true and out-of-the-ordinary methods for spending your weekends and vacations. ",
+      "Redefining e-commerce with AI, AR, and VR, enabling virtual product interaction, virtual dressing rooms, and personalized AI shopping recommendations.",
     image: "/images/4.png",
-    tags: ["Flutter", "GetX"],
-    source: "https://github.com/AfaqShahidKhan/Your-Guide",
-    visit: "https://github.com/AfaqShahidKhan?tab=repositories",
+    tags: ["React", "AI", "AR/VR"],
+    source: "https://github.com/AfaqShahidKhan?tab=repositories",
+    visit: "https://strikeo.com/",
     id: 3,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: "Started my journey in PF and OOP in C++ " },
-  
   {
     year: 2020,
-    text: "Worked on JAVA for desktop apps, Wordpress and Shopify",
+    text: "Started my journey in JAVA for desktop apps",
   },
   { year: 2021, text: "Worked on Flutter for Android and IOS" },
-  { year: 2022, text: "worked on Vue, React and NEXT.js 13" },
-  { year: 2023, text: "Currently working on Rails 7 and PostgreSQL " },
+  { year: 2022, text: "worked with Ruby on Rails and PostgreSQL" },
+  { year: 2023, text: "Since 2023, I've been working on React and NEXT.js " },
 ];

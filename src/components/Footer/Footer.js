@@ -3,9 +3,9 @@ import {
   AiFillGithub,
   AiFillInstagram,
   AiFillLinkedin,
-  AiFillTwitterCircle,
 } from "react-icons/ai";
 
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
   CompanyContainer,
@@ -43,7 +43,7 @@ const Footer = () => {
               <AiFillLinkedin size="3rem" />
             </SocialIcons>
             <SocialIcons href="https://twitter.com/afaqshahidkhan" target="_blank">
-              <AiFillTwitterCircle size="3rem" />
+              <FaSquareXTwitter size="3rem" />
             </SocialIcons>
           </SocialContainer>
         </SocialIconsContainer>

@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from "react";
+import { Layout } from "../layout/Layout";
+import ScrollToTopButton from "../components/ScrollToTopButton/ScrollToTopButton";
 
 import {
   StyledProject,
@@ -11,13 +13,13 @@ import {
   UtilityList,
   Img,
   ExternalLinks,
-} from "./ProjectsStyles";
+} from "../components/Projects/ProjectsStyles";
 import {
   Section,
   SectionDivider,
   SectionTitle,
-} from "../../styles/GlobalComponents";
-import { projects } from "../../constants/constants";
+} from "../styles/GlobalComponents";
+import { projects } from "../constants/constants";
 
 const Project = ({ title, description, tags, image, visit }) => {
   const mediaContainerRef = useRef(null);
@@ -31,13 +33,13 @@ const Project = ({ title, description, tags, image, visit }) => {
   };
 
   const handleTab = (e) => {
-    if (e.key === 'Tab') {
-      mediaContainerRef.current.classList.add('in-view');
+    if (e.key === "Tab") {
+      mediaContainerRef.current.classList.add("in-view");
     }
   };
 
   const userIsTabbing = () => {
-    if (document && document.body.classList.contains('user-is-tabbing')) {
+    if (document && document.body.classList.contains("user-is-tabbing")) {
       return true;
     }
     return false;
@@ -45,7 +47,7 @@ const Project = ({ title, description, tags, image, visit }) => {
 
   const toggleInViewClass = () => {
     if (isInView() && !userIsTabbing()) {
-      mediaContainerRef.current.classList.add('in-view');
+      mediaContainerRef.current.classList.add("in-view");
     }
   };
 
@@ -54,11 +56,11 @@ const Project = ({ title, description, tags, image, visit }) => {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', scrollHandler);
-    window.addEventListener('keydown', handleTab);
+    window.addEventListener("scroll", scrollHandler);
+    window.addEventListener("keydown", handleTab);
     toggleInViewClass();
     return () => {
-      window.removeEventListener('scroll', scrollHandler);
+      window.removeEventListener("scroll", scrollHandler);
     };
   });
 
@@ -90,16 +92,19 @@ const Project = ({ title, description, tags, image, visit }) => {
   );
 };
 
-const Projects = () => (
-  <Section $nopadding id="projects">
-    <SectionDivider />
-    <SectionTitle $main>My Work</SectionTitle>
-    <GridContainer>
-      {projects.map((p, i) => (
-        <Project key={i} {...p} />
-      ))}
-    </GridContainer>
-  </Section>
+const ProjectsPage = () => (
+  <Layout>
+    <Section $nopadding id="projects">
+      <SectionDivider />
+      <SectionTitle $main>My Work</SectionTitle>
+      <ScrollToTopButton />
+      <GridContainer>
+        {projects.map((p, i) => (
+          <Project key={i} {...p} />
+        ))}
+      </GridContainer>
+    </Section>
+  </Layout>
 );
 
-export default Projects;
+export default ProjectsPage;
