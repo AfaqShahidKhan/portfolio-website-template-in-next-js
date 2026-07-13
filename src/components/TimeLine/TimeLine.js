@@ -65,9 +65,8 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionDivider />
-      <br />
       <SectionTitle>About Me</SectionTitle>
+      <SectionDivider />
       <SectionText>
         I'm passionate about accessibility, performance, and elegant design and
         things that usually make life easier for the users.
@@ -110,10 +109,10 @@ const Timeline = () => {
                         y2="0.500295"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stopColor="white" />
+                        <stop stopColor="#333333" />
                         <stop
                           offset="0.79478"
-                          stopColor="white"
+                          stopColor="#333333"
                           stopOpacity="0"
                         />
                       </linearGradient>

@@ -12,7 +12,7 @@ const Hero = () => (
   <Section $row $nopadding>
     <LeftSection>
       <SectionTitle $main $center>
-        Hi! I'm Mohsin Ghouse
+        Hi! I'm Afaq Shahid Khan
         <br />
       </SectionTitle>
       <SectionText>

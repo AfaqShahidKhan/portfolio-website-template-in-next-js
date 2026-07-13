@@ -63,7 +63,7 @@ const Header = () => {
         </li>
       </Div2>
       <Div3>
-        <SocialIcons href="https://github.com/Mohsin" target="_blank">
+        <SocialIcons href="https://github.com/AfaqShahidKhan" target="_blank">
           <AiFillGithub size="3rem" />
         </SocialIcons>
         <SocialIcons
@@ -72,7 +72,7 @@ const Header = () => {
         >
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://twitter.com/mohsin" target="_blank">
+        <SocialIcons href="https://twitter.com/afaqshahidkhan" target="_blank">
           <FaSquareXTwitter size="3rem" />
         </SocialIcons>
       </Div3>
