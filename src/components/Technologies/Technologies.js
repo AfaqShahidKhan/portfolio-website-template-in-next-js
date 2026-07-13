@@ -16,9 +16,8 @@ import {
 
 const Technologies = () => (
   <Section id="tech">
-    <SectionDivider />
-    <br />
     <SectionTitle>Technologies</SectionTitle>
+    <SectionDivider />
     <SectionText>
       I have worked with a range of Technologies in web development as well as
       mobile and desktop applications

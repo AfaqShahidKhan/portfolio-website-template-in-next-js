@@ -9,17 +9,17 @@ import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
 const Hero = () => (
-  <Section row nopadding>
+  <Section $row $nopadding>
     <LeftSection>
-      <SectionTitle main center>
+      <SectionTitle $main $center>
         Hi! I'm Afaq Shahid Khan
         <br />
-    
       </SectionTitle>
       <SectionText>
-      An AI Engineer, Having Experties in Python, LangChain, JavaScript, React.js, Next.js, TypeScript,
-      Node, Express, MongoDB RESTful APIs, Debugging, GIT,
-      HTML, CSS,Wordpress, Bootstrap, Material UI, Tailwind CSS and Semantic UI.
+        An AI Engineer, Having Experties in Python, LangChain, JavaScript,
+        React.js, Next.js, TypeScript, Node, Express, MongoDB RESTful APIs,
+        Debugging, GIT, HTML, CSS,Wordpress, Bootstrap, Material UI, Tailwind
+        CSS and Semantic UI.
       </SectionText>
       <Button
         onClick={() => {
@@ -28,7 +28,6 @@ const Hero = () => (
       >
         Learn more
       </Button>
-
     </LeftSection>
   </Section>
 );

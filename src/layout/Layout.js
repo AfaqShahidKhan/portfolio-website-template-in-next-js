@@ -6,10 +6,14 @@ import { Container } from './LayoutStyles'
 
 export const Layout = ({children}) => {
   return (
-    <Container id='header'>
-     <Header/>
-     <main>{children}</main> 
-     <Footer/>
-    </Container>
+    <div id='header'>
+     <Container>
+       <Header/>
+     </Container>
+     <main>{children}</main>
+     <Container>
+       <Footer/>
+     </Container>
+    </div>
   )
 }
