@@ -1,12 +1,12 @@
 export const projects = [
   {
-    title: "Bookarley",
+    title: "Strikeo",
     description:
-      "A  beacon of innovation in the world of wedding planning that embrace the future of wedding planning",
+      "Redefining e-commerce with AI, AR, and VR, enabling virtual product interaction, virtual dressing rooms, and personalized AI shopping recommendations.",
     image: "/images/1.png",
-    tags: ["Rails", "Postgresql", "Solidus"],
+    tags: ["React", "AI", "AR/VR"],
     source: "https://github.com/AfaqShahidKhan?tab=repositories",
-    visit: "https://bookarley.com/",
+    visit: "https://strikeo.com/",
     id: 0,
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     description:
       "Essentials marketplace featuring products for Events, Gifts, Hospitality, Printpacks, Retail, Workplace, and more, with ready-made templates and sustainability statistics.",
     image: "/images/2.png",
-    tags: ["React", "Next.js", "E-commerce"],
+    tags: ["Next.js", "Node.js", "MongoDB"],
     source: "https://github.com/AfaqShahidKhan?tab=repositories",
     visit: "https://www.merchandaise.com/en-us",
     id: 1,
@@ -30,13 +30,13 @@ export const projects = [
     id: 2,
   },
   {
-    title: "Strikeo",
+    title: "Bookly",
     description:
-      "Redefining e-commerce with AI, AR, and VR, enabling virtual product interaction, virtual dressing rooms, and personalized AI shopping recommendations.",
+      "Bookly pairs online booking with AI that answers your calls, texts, and chats — then follows up automatically, so every lead turns into a booking.",
     image: "/images/4.png",
-    tags: ["React", "AI", "AR/VR"],
+    tags: ["Next.js", "Node.js", "Postgresql"],
     source: "https://github.com/AfaqShahidKhan?tab=repositories",
-    visit: "https://strikeo.com/",
+    visit: "https://www.bookly-ai.com/",
     id: 3,
   },
 ];
